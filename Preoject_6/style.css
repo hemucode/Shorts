@@ -1,0 +1,16 @@
+.tire{
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	width: 400px;
+	height: 400px;
+	background-image: url("tire.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	animation: spin 1s linear infinite;
+}
+@keyframes spin {
+	0%{transform: translate(-50%,-50%)rotate(0deg);}
+	100%{transform: translate(-50%,-50%)rotate(360deg);}
+}

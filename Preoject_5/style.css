@@ -1,0 +1,35 @@
+.flag{
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	width: 350px;
+	height: 200px;
+	background-image: url("tiger.png");
+	background-size: cover;
+	background-repeat: no-repeat; 
+}
+.flag:after{
+	content: '';
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	width: 70px;
+	height: 70px;
+	background-image: url("chakra.png");
+	background-size: cover;
+	background-repeat: no-repeat; 
+}
+.flag:before{
+	content: '';
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	width: 350px;
+	height: 200px;
+	background: linear-gradient(180deg,#f79431cc 33%,
+		#fff 34%,#fff 67%,
+		#118407d1 68%)
+}

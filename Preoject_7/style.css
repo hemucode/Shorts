@@ -1,0 +1,23 @@
+.olaf{
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	width: 600px;
+	height: 760px;
+	background-image: url("1.jpg");
+}
+.olaf:after{
+	content: '';
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	width: 600px;
+	height: 760px;
+	background-image: url("2.jpg");
+	animation: move 1s 
+	cubic-bezier(1, -0.5, 0.1, 3.0)infinite;
+}
+@keyframes move {0%{visibility: all;}
+100%{visibility: hidden;}}

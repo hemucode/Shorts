@@ -1,0 +1,18 @@
+.eye{
+    width: 60%;
+    height: 20px;
+    padding-top: 55%;
+    border-radius: 75% 0;
+    border-top: solid 16px black;
+    border-left: solid 10px black;
+    border-right: solid 3px black;
+    border-bottom: solid 3px black;
+    transform: rotate(45deg);
+    background: radial-gradient(circle,
+        #000 25%,
+        #173366 26%,#173366 35%,
+        #3980ff 36%,#3980ff 52%,
+        #0044cc 53%,#0044cc 59%,
+        #fff 60%,#fff 80%,
+        #ffcaea 81%);
+}

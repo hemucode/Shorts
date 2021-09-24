@@ -1,0 +1,40 @@
+.text{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    font-size: 100px;
+    font-family: cursive;
+    font-weight: bold;
+    font-style: italic;
+    background: -webkit-linear-gradient(#f602ff,#ff0069);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text:before{
+    content: 'thegayen';
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    font-size: 100px;
+    font-family: cursive;
+    font-weight: bold;
+    font-style: italic;
+    background: -webkit-linear-gradient(#00ffc9,#02a4f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: -8px;
+}
+
+.text:after{
+    content: 'thegayen';
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    -webkit-text-stroke-width: 2px;    
+    -webkit-text-stroke-color: #fff;
+    margin-left: -8px;
+}
+
